@@ -1,5 +1,5 @@
-const core = require("@actions/core");
-const exec = require("@actions/exec");
+import * as core from "@actions/core";
+import * as exec from "@actions/exec";
 
 const settings = ["port", "dbPath", "sharedDb", "cors", "delayTransientStatuses", "optimizeDbBeforeStartup", "version"].reduce((obj, key) => {
 	obj[key] = core.getInput(key);

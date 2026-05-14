@@ -2,6 +2,7 @@
   "name": "dynamodb-action",
   "version": "3.0.0",
   "description": "Starts DynamoDB Local in background as a Docker container for support with GitHub Actions",
+  "type": "module",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
